@@ -19,3 +19,7 @@
   .all ul .part1{
     margin-bottom: 150px;
   }
+  .all ul .part1 nav h2,h6{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
