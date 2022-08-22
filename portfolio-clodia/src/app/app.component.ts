@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio-clodia';
+  constructor(private router:Router){}
+  goToIndex(){
+    this.router.navigate(['/','index']);
+  }
+  goToAbout(){
+    this.router.navigate(['/','about']);
+  }
+  goToBlog(){
+    this.router.navigate(['/','blog']);
+  }
+  goToSkills(){
+    this.router.navigate(['/','skills']);
+  }
+  goToContact(){
+    this.router.navigate(['/','contact']);
+  }
 }
