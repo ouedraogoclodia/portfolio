@@ -1,0 +1,28 @@
+img{
+    padding-left: 150px;
+    padding-top: 100px;
+    border-radius: 5%;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+    line-height: 2;
+}
+p span{
+    color: deeppink;
+    font-weight: bold;
+}
+.Acontent{
+    display: flex;
+    padding-top: 100px;
+}
+.bar{
+    border-right: 5px;
+    background-color: deeppink;
+    width: 5px;
+    height: 500px;
+    margin-left: 100px; 
+}
