@@ -12,7 +12,7 @@ p{
     line-height: 2;
 }
 p span{
-    color: deeppink;
+    color: aquamarine;
     font-weight: bold;
 }
 .Acontent{
@@ -21,7 +21,7 @@ p span{
 }
 .bar{
     border-right: 5px;
-    background-color: deeppink;
+    background-color: aquamarine;
     width: 5px;
     height: 500px;
     margin-left: 100px; 

@@ -1,0 +1,56 @@
+.container{
+    color: white;
+    height: 100vh;
+    padding-top: 150px;
+    padding-left: 80px;
+    width: 35%;
+}
+.container h1{
+    font-size: 70px;
+    color: rgb(105, 243, 197);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.part2{
+    width: 65%;
+    width:550px;
+    background-color: rgb(29, 28, 28);
+    height:550px;
+    margin-top: 150px;
+    margin-left: 150px;
+    border-radius:550px;
+    line-height: 90px;
+    
+}
+.part2 p{
+    text-align: center;
+    word-spacing: 80px;
+    margin-top: 0px;
+    color: rgb(105, 243, 197);
+    font-size: 20px;
+} 
+.part2 p:hover{
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+}  
+.part{
+    display: flex;
+}
+
+
+

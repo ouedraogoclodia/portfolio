@@ -8,7 +8,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { IndexComponent } from './index/index.component';
 import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
-import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
@@ -17,7 +16,6 @@ import { ContactComponent } from './contact/contact.component';
     IndexComponent,
     AboutComponent,
     SkillsComponent,
-    BlogComponent,
     ContactComponent
   ],
   imports: [
