@@ -9,14 +9,9 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'portfolio-clodia';
   constructor(private router:Router){}
-  goToIndex(){
-    this.router.navigate(['/']);
-  }
+  
   goToAbout(){
     this.router.navigate(['/','about']);
-  }
-  goToBlog(){
-    this.router.navigate(['/','blog']);
   }
   goToSkills(){
     this.router.navigate(['/','skills']);

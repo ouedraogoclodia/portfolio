@@ -33,12 +33,16 @@
   .all ul .icon img{
     margin-left: 5px;
   }
+  .all .part2 li a{
+    text-decoration: none;
+    color: white;
+  }
   .all .part2 li a:active{
     color: aquamarine;
     font-weight: bold;
     font-style: normal;
   }
-  .all .part2 li:hover{
+  .all .part2 li a:hover{
     color: aquamarine;
   }
   
