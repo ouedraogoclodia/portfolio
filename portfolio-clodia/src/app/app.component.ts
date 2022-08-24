@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'portfolio-clodia';
   constructor(private router:Router){}
   goToIndex(){
-    this.router.navigate(['/','index']);
+    this.router.navigate(['/']);
   }
   goToAbout(){
     this.router.navigate(['/','about']);
