@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+    padding-top: 50px;
+}
+.container .part1{
+    width: 40%;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.container .part1 h1{
+    color: aquamarine;
+    font-size: 70px;
+    font-weight: bold;
+}
+.container .part1 p{
+    color: white;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 20px;
+    
+}
+.container .part2{
+    width: 60%;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.container .part2 h3{
+    color: white;
+}
+
+.container .part2 .trait1{
+    border: 1px solid rgb(48, 46, 46);
+    width: 650px;
+   background-color: rgb(48, 46, 46);
+}
+.container .part2 .trait1 .cl1{
+    border: 1px solid rgb(6, 250, 169);
+    width: 500px;
+    background-color: rgb(6, 250, 169);
+}
+
+.container .part2 .trait2{
+    border: 1px solid rgb(48, 46, 46);
+    width: 650px;
+   background-color: rgb(48, 46, 46);
+}
+.container .part2 .trait2 .cl2{
+    border: 1px solid red;
+    width: 350px;
+    background-color: red;
+}
+
+.container .part2 .trait3{
+    border: 1px solid rgb(48, 46, 46);
+    width: 650px;
+   background-color: rgb(48, 46, 46);
+}
+.container .part2 .trait3 .cl3{
+    border: 1px solid violet;
+    width: 250px;
+    background-color: violet;
+}
+.container .part2 .part3{
+    display: flex;
+    padding-top: 70px;
+    width: 650px;
+    color: white;
+}
+.container .part2 .part3 .form1{
+    border: 1px solid rgb(55, 54, 54);
+    background-color: rgb(55, 54, 54);
+    margin-right: 20px;
+    width: 50%;
+    height: 250px;
+    padding: 20px;
+    line-height: 1.5;
+}
+.container .part2 .part3 .form2{
+    border: 1px solid rgb(55, 54, 54);
+    background-color: rgb(55, 54, 54);
+    width: 50%;
+    height: 250px;
+    padding: 20px;
+    line-height: 1.5;
+}
+.container .part2 .part3 .form1 p{
+    color: rgb(210, 205, 205);
+    font-size: 20px;
+}
+.container .part2 .part3 .form2 p{
+    color: rgb(210, 205, 205);
+    font-size: 20px;
+}
+
+
